@@ -1,4 +1,44 @@
 /* YeyeYeee código aquí */
+/*HOME*/
 body {
     background-color: #3d4040;
+}
+.logoHome{
+
+	width: 50%;
+	padding-top: 25%;
+}
+.home {
+    color: #f5a700;
+    font-weight: bold;
+}
+.formulario {
+    background-color: #ffffff;
+    width: 90%;
+    margin-top: 20%;
+}
+.btnStart {
+    width: 90%;
+    background-color: #f5a700;
+    margin-top: -26px;
+    color: #3b466e;
+}
+.input-field {
+    height: 70px;
+}
+.material-icons{
+	color: grey;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.text {
+	color: white;
+}
+.forget{
+	margin-left: 4%;
+}
+.registrate{
+	color: #f5a700;
+    cursor: pointer;2
 }
