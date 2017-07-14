@@ -14,7 +14,7 @@ a:focus, a:hover {
 .btnCenter{
 margin-top: 120px;
 }
-.btn-large #btnAgregar{
+.btn-large{
     margin-bottom: 10px;
     width: 90%;
     background-color: #ffa600;
