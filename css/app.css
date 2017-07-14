@@ -28,3 +28,11 @@ margin-top: 120px;
 .button-collapse {
     cursor: pointer;
 }
+.side-nav li>a>i{
+    color: #ffa600;
+    font-weight: normal;
+}
+
+.side-nav li>a>i.material-icons{
+    color: #ffa600;
+}
