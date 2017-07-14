@@ -1,0 +1,30 @@
+body {
+    background-color: #dcdcde;
+}
+.menuNav {
+    background-color: #3d4040;
+}
+a:focus, a:hover {
+    color: white;
+    text-decoration: none;
+}
+.brand-logo{
+    cursor: auto;
+}
+.btnCenter{
+margin-top: 120px;
+}
+.btn-large {
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: #ffa600;
+    font-size: 20px;
+}
+.btn:hover, .btn-large:hover {
+    background-color: white;
+    color: #ffa600;
+}
+
+.button-collapse {
+    cursor: pointer;
+}

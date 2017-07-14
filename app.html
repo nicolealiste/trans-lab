@@ -8,12 +8,59 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <!-- Bootstrap Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
 </head>
 <body>
+    <!--Nav-slider-->
+    <nav class="nav-extended menuNav">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">TRANS-LAB</a>
+            <ul id="slide" class="side-nav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="saldo.html"><i class="fa fa-usd fa-2x" aria-hidden="true"></i>Ver saldo</a>
+                </li>
+                <li>
+                    <a href="calcular.html"><i class="fa fa-th fa-2x" aria-hidden="true"></i>Calcular Tarifa</a>
+                </li>
+                <li>
+                    <a href="perfil.html"><i class="fa fa-user fa-2x" aria-hidden="true"></i>Perfil</a>
+                </li>
+                <li>
+                    <a href="frecuentes.html"><i class="material-icons">receipt</i>Preguntas frecuentes</a>
+                </li>
+                <li>
+                    <a href="menu.html"><i class="material-icons">trending_flat</i>Home</a>
+                </li>
+            </ul>
+            <a href="#" data-activates="slide" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <!-- Botones -->
+    <div class="row btnCenter center">
+        <div class="s12">
+            <a href="saldo.html" class="btn-large waves-effect waves-light">VER SALDO</a>
+        </div>
+        <div class="s12">
+            <a href="tarifa.html" class="btn-large waves-effect waves-light">CALCULAR TARIFA</a>
+        </div>
+        <div class="s12">
+            <a href="perfil.html" class="btn-large waves-effect waves-light">PERFIL</a>
+        </div>
+        <div class="s12">
+            <a href="preguntas.html" class="btn-large waves-effect waves-light">PREGUNTAS FRECUENTES</a>
+        </div>
+    </div>
  	<!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <!--Import jQuery before materialize.js-->
